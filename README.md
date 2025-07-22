@@ -1,52 +1,102 @@
-# MERN Stack Capstone Project
+# FundiFix 🔧💬
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+**FundiFix** is a MERN-stack platform that connects clients to local _fundis_ (handymen) for various repair and maintenance services. It aims to simplify the process of finding reliable fundis, enhance communication, and promote local talent through technology.
 
-## Assignment Overview
+> 🚀 **Live URL**: [https://fundi-fix-connect.lovable.app/](https://fundi-fix-connect.lovable.app/)
 
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+---
 
-## Getting Started
+## 🌟 Project Overview
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
+FundiFix is designed to support users in posting jobs, chatting with fundis in real time, and managing handyman bookings and reviews — all within a modern, responsive interface.
 
-## Files Included
+### 🎯 Key Features (Planned or In Progress)
 
-- `Week8-Assignment.md`: Detailed assignment instructions
+- ✅ **User Authentication** using Clerk
+- ✅ **Real-time Chat** powered by Socket.io
+- ✅ **MPESA Integration** for secure and local-friendly payments
+- ✅ **Job Posting & Applications**
+- ✅ **Fundi Profiles** with services, location, and ratings
+- ✅ **Admin Dashboard** for managing fundis, users, and reports
+- ✅ **Social Impact Section** showing SDG contributions
+- 🚧 **More Features Coming Soon**...
 
-## Requirements
+---
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
+## 💻 Tech Stack
 
-## Project Ideas
+| Layer        | Tech Used                              |
+| ------------ | -------------------------------------- |
+| **Frontend** | React + Vite + TailwindCSS + shadcn/ui |
+| **Backend**  | Express.js + Mongoose + Node.js        |
+| **Database** | MongoDB Atlas                          |
+| **Auth**     | Clerk                                  |
+| **Payments** | MPESA API                              |
+| **Realtime** | Socket.io                              |
+| **Deploy**   | Lovable AI + GitHub                    |
 
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
+---
 
-## Submission
+## 🧠 Design Theme
 
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+The design follows a **dark mode interface** with:
 
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
+- **⚫ Deep background**
+- **🟠 Orange highlights**
+- **🔵 Electric blue CTAs**
+- **⚪ Soft white text**
 
-## Resources
+Typography and UI are clean and accessible using **shadcn/ui** components, with responsiveness as a core principle.
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
+---
+
+## ⚙️ Project Setup (for local dev)
+
+1. Clone the repo:
+   ```bash
+   git clone <repo-url>
+   cd fundifix
+   ```
+
+````
+
+2. Install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+3. Create a `.env` file and add:
+
+   ```
+   MONGO_URI=your_mongo_atlas_uri
+   CLERK_SECRET_KEY=your_clerk_secret_key
+   ```
+
+4. Run the app:
+
+   ```bash
+   pnpm run dev
+   ```
+
+---
+
+## 🤝 Contributors
+
+* **Kallen** – Frontend, UX/UI, and Vision 💡
+* **Lovable AI** – Assistant for rapid prototyping and deployment 🚀
+
+---
+
+## 📌 Status
+
+The project is under active development. Full integration and feature rollout will be done incrementally.
+
+👉 **Live Preview**: [https://fundi-fix-connect.lovable.app/](https://fundi-fix-connect.lovable.app/)
+
+
+
+> ❤️ FundiFix: Fixing your world, one tap at a time!
+
+
+````
